@@ -1,0 +1,72 @@
+# =========================
+# Node.js / Express .gitignore
+# =========================
+
+# --- Dependencies ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Environment variables ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Build outputs ---
+dist/
+build/
+tmp/
+temp/
+coverage/
+
+# --- Logs ---
+logs/
+*.log
+*.log.*
+log.txt
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# --- Runtime data ---
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# --- Optional cache ---
+.cache/
+.next/
+out/
+.eslintcache
+.stylelintcache
+
+# --- Testing ---
+jest-cache/
+jest-coverage/
+coverage/
+.mocha/
+nyc_output/
+
+# --- TypeScript (if used) ---
+*.tsbuildinfo
+
+# --- Misc ---
+*.tgz
+*.swp
